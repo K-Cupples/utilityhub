@@ -152,7 +152,7 @@ function Feature({
   desc,
   tech,
 }: {
-  icon: any;
+  icon: React.ElementType;
   title: string;
   desc: string;
   tech: string;
