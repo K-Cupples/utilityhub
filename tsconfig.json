@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* ---- BASIC ---- */
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "allowJs": false,
+    "strict": true,
+    "noEmit": true,
+
+    /* ---- PATH ALIASES (optional) ---- */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+
+    /* ---- TYPES ---- */
+    "types": ["node"],
+
+    /* ---- SOURCE MAPS / DEBUG ---- */
+    "sourceMap": true,
+    "skipLibCheck": true
+  },
+
+  "exclude": ["node_modules", ".next", "dist"]
+}

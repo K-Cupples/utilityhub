@@ -1,0 +1,16 @@
+{
+  "name": "loader",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "esbuild src/index.ts --bundle --minify --format=iife --outfile=dist/v1.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.5",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  }
+}
